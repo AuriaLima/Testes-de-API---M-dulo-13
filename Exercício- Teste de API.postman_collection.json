@@ -65,9 +65,7 @@
 							"    pm.response.to.have.status(400);\r",
 							"});\r",
 							"\r",
-							"pm.test(\"Status code is 201\", function () {\r",
-							"    pm.response.to.have.status(201);\r",
-							"});"
+							""
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -211,12 +209,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/usuarios/0uxuPY0cbmQhpEz1",
-					"protocol": "http",
+					"raw": "{{local}}/usuarios/0uxuPY0cbmQhpEz1",
 					"host": [
-						"localhost"
+						"{{local}}"
 					],
-					"port": "3000",
 					"path": [
 						"usuarios",
 						"0uxuPY0cbmQhpEz1"
